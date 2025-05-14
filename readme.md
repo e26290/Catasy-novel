@@ -1,4 +1,40 @@
-# 專案階層說明：
+### 啟動專案指令
+
+```
+// 安裝依賴
+npm install
+
+// 啟動 VitePress 開發伺服器
+npm run docs:dev
+
+// 建置 VitePress 網站
+npm run docs:build
+
+// 預覽建置後的網站
+npm run docs:preview
+```
+
+### 自動化腳本指令
+
+```
+// 啟動互動式選單
+novel-cli
+
+// 查看所有可用操作
+novel-cli --h
+```
+
+### 環境設定
+
+1.  確保已安裝 [Node.js](https://nodejs.org/) (建議使用 v18 或更高版本，目前專案測試基於 v22.x.x)。
+2.  (推薦) 安裝並使用 [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager) 來管理 Node.js 版本。
+    - 安裝 nvm 後，可以執行 `nvm install --lts` 或 `nvm install <version>` (例如 `nvm install 20`)。
+    - 然後執行 `nvm use <version>`。
+    - (可選) 在專案根目錄下創建 `.nvmrc` 檔案並寫入 Node.js 版本號，之後進入專案目錄執行 `nvm use` 即可自動切換。
+3.  Clone 本專案。
+4.  進入專案根目錄，執行 `npm install` 安裝所有依賴。
+
+### 專案階層說明：
 
 ```!
 Catasy-novel/
@@ -36,39 +72,3 @@ Catasy-novel/
 ├── package-lock.json
 └── README.md
 ```
-
-### 啟動專案指令
-
-```
-// 安裝依賴
-npm install
-
-// 啟動 VitePress 開發伺服器
-npm run docs:dev
-
-// 建置 VitePress 網站
-npm run docs:build
-
-// 預覽建置後的網站
-npm run docs:preview
-```
-
-### 自動化腳本指令
-
-```
-// 啟動互動式選單
-novel-cli
-
-// 查看所有可用操作
-novel-cli --h
-```
-
-### 環境設定
-
-1.  確保已安裝 [Node.js](https://nodejs.org/) (建議使用 v18 或更高版本，目前專案測試基於 v22.x.x)。
-2.  (推薦) 安裝並使用 [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager) 來管理 Node.js 版本。
-    - 安裝 nvm 後，可以執行 `nvm install --lts` 或 `nvm install <version>` (例如 `nvm install 20`)。
-    - 然後執行 `nvm use <version>`。
-    - (可選) 在專案根目錄下創建 `.nvmrc` 檔案並寫入 Node.js 版本號，之後進入專案目錄執行 `nvm use` 即可自動切換。
-3.  Clone 本專案。
-4.  進入專案根目錄，執行 `npm install` 安裝所有依賴。
