@@ -4,8 +4,7 @@ layout: home
 ---
 
 <script setup>
-import { data as novels } from './novels.data.mjs'; // 引入資料，假設 novels.data.mjs 在同一目錄
-                                                  // 如果 novels.data.mjs 在別處，路徑需要調整
+import { data as novels } from './novels.data.mjs'; 
 import { withBase } from 'vitepress';
 </script>
 
@@ -25,9 +24,7 @@ import { withBase } from 'vitepress';
     <a :href="withBase(novel.link)" class="read-more">點此閱讀 &raquo;</a>
   </div>
 </div>
-<p v-else>
-  目前還沒有任何小說。
-</p>
+<p v-else>目前還沒有任何小說。</p>
 
 <style scoped>
 .novel-list {
@@ -51,8 +48,8 @@ import { withBase } from 'vitepress';
 }
 .novel-list-cover {
   width: 100%;
-  max-height: 200px; /* 限制封面高度 */
-  object-fit: cover; /* 保持圖片比例並裁剪 */
+  max-height: 200px;
+  object-fit: cover;
   border-radius: 4px;
   margin-bottom: 15px;
 }
@@ -64,7 +61,7 @@ import { withBase } from 'vitepress';
 .novel-list-description {
   font-size: 0.95em;
   color: var(--vp-c-text-1);
-  flex-grow: 1; /* 讓描述佔滿剩餘空間 */
+  flex-grow: 1;
   margin-bottom: 15px;
 }
 .read-more {
@@ -75,7 +72,7 @@ import { withBase } from 'vitepress';
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s;
-  align-self: flex-start; /* 讓按鈕在底部左對齊 */
+  align-self: flex-start;
 }
 .read-more:hover {
   background-color: var(--vp-c-brand-2);
