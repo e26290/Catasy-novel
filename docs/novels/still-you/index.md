@@ -15,10 +15,10 @@ tags:
   - 耽美
 status: 尚在挖坑
 coverImage: /images/a.jpg
-createdAt: "2025-05-14T09:22:02.654Z"
-lastUpdated: "2025-05-14T09:24:11.907Z"
+createdAt: '2025-05-14T09:22:02.654Z'
+lastUpdated: '2025-05-14T09:32:59.129Z'
 chapters:
-  - title: 第0章〈夢始之前〉
+  - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
 aside: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: 第 1 章〈夢始之前〉
+title: 第一章：夢始之前
 id: Ch-1
 novelTitle: 此生不識君，亦為君沉淪 Still You
 novelId: still-you
