@@ -1,0 +1,30 @@
+{
+  "name": "catasy-novel",
+  "version": "1.0.0",
+  "description": "Catasy 的小說內容管理網站",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "novel-cli": "./novel-cli.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.1",
+    "js-yaml": "^4.1.0",
+    "open": "^10.1.2"
+  }
+}
