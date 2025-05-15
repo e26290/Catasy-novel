@@ -1,5 +1,5 @@
 ---
-title: 所有小說
+title: Fiction.exe
 layout: home
 ---
 
@@ -8,9 +8,10 @@ import { data as novels } from './novels.data.mjs';
 import { withBase } from 'vitepress';
 </script>
 
-# 所有小說
+### Fiction.exe ｜故事清單
 
-歡迎來到我的小說世界！
+Run error. Begin dream.<br>
+啟動錯誤，進入虛構。剩下的，就交給夢。
 
 <div v-if="novels && novels.length > 0" class="novel-list">
   <div v-for="novel in novels" :key="novel.id" class="novel-item">
