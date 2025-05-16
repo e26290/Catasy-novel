@@ -91,6 +91,13 @@ a {
   color: var(--vp-c-text-2);
   flex-grow: 1;
   margin: 1rem 0;
+  min-height: 64px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .read-more {
   display: inline-block;

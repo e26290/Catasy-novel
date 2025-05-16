@@ -12,7 +12,7 @@ export default {
       alt: 'Fiction.exe Logo'
     },
     siteTitle: false,
-    nav: [{ text: "所有小說", link: "/" }],
+    nav: [{ text: "所有故事", link: "/" }],
     footer: {
       message: '所有內容皆屬虛構。如有雷同，建議重新開機。',
       copyright: '© 2025 Fiction.exe',
