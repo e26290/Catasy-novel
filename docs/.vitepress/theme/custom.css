@@ -2,14 +2,34 @@
 :root {
     --vp-c-bg: #f7f9ff;
     /*背景色*/
-    --vp-nav-bg-color: #fff;
+    /* --vp-nav-bg-color: #fff; */
     /* Header 背景色 */
+    --vp-sidebar-bg-color: #fff;
+
+    /* Sidebar 背景色 */
+    /* .wrapper .content {
+        background-color: #fff;
+    } */
+    /* Header content 背景色 */
+    .VPLink.link.pager-link {
+        background-color: #fff;
+    }
+
+    /* 換頁按鈕背景色 */
 }
 
 /* 深色模式 */
 html.dark {
     --vp-c-bg: #1c1c1e;
-    --vp-nav-bg-color: #343438;
+    /* --vp-nav-bg-color: #343438; */
+    --vp-sidebar-bg-color: #343438;
+
+    /* .wrapper .content {
+        background-color: #343438;
+    } */
+    .VPLink.link.pager-link {
+        background-color: #343438;
+    }
 }
 
 /* --- 通用樣式 --- */
@@ -44,3 +64,30 @@ body {
 .novel-intro-page .novel-meta span {
     display: block;
 }
+
+/* 針對所有 social link 圖示 */
+.VPSocialLink .VPSocialLinkIcon {
+    color: var(--vp-c-text-2);
+}
+
+.VPSocialLink:hover .VPSocialLinkIcon {
+    color: var(--vp-c-text-1);
+}
+
+html.dark .VPSocialLink .VPSocialLinkIcon {
+    color: var(--vp-c-text-2-dark);
+}
+
+html.dark .VPSocialLink:hover .VPSocialLinkIcon {
+    color: var(--vp-c-text-1-dark);
+}
+
+@media (max-width: 767px) {
+    .VPSocialLink svg {
+        width: 36px !important;
+        height: 36px !important;
+        margin-top: 40px;
+    }
+}
+
+/* ------------------------- */

@@ -8,7 +8,7 @@ import { data as novels } from './novels.data.mjs';
 import { withBase } from 'vitepress';
 </script>
 
-#### Fiction.exe ｜故事清單
+<h4 class="page-title">Fiction.exe ｜故事清單</h4>
 
 <br>
 Run error. Begin dream.<br>
@@ -48,6 +48,9 @@ a {
     color: inherit;
 }
 
+.page-title {
+  margin-top: 2rem;
+}
 .novel-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* 響應式網格佈局 */

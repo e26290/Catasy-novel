@@ -2,7 +2,7 @@
 title: 此生不識君，亦為君沉淪
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
-description: 醒來那天，謝憐發現自己成了鄉下藥農，還有一個可愛的弟弟叫花城。問題是——他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
+description: 醒來那天，謝憐發現自己成了鄉野村民，還有一個可愛的弟弟叫花城。問題是——他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
 author: 卡塔西
 genre:
   - 奇幻
@@ -59,4 +59,7 @@ const { frontmatter } = useData()
 </div>
 
 <style scoped>
+  li {
+    list-style-type: square;
+  }
 </style>
