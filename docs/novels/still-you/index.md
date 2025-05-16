@@ -1,8 +1,8 @@
 ---
-title: 此生不識君，亦為君沉淪 Still You - 作品簡介
-novelTitle: 此生不識君，亦為君沉淪 Still You
+title: 此生不識君，亦為君沉淪
+novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
-description: 醒來那天，謝憐發現自己成了鄉下藥農，還多了一個叫花城的弟弟。問題是——他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
+description: 醒來那天，謝憐發現自己成了鄉下藥農，還有一個可愛的弟弟叫花城。問題是——他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
 author: 卡塔西
 genre:
   - 奇幻
@@ -15,28 +15,33 @@ tags:
   - 耽美
 status: 連載中
 coverImage: /images/a.jpg
-createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-05-15T05:44:01.780Z'
+createdAt: "2025-05-14T09:22:02.654Z"
+lastUpdated: "2025-05-15T05:44:01.780Z"
 chapters:
   - title: 第一章：夢始之前
-    link: ./Ch-1
+    link: /novels/still-you/Ch-1
   - title: 第二章：夢起・鄉村冬雪
-    link: ./Ch-2
+    link: /novels/still-you/Ch-2
 aside: true
 ---
-
-# {{ frontmatter.novelTitle }}
 
 <script setup>
 import { useData, withBase } from 'vitepress'
 const { frontmatter } = useData()
 </script>
 
-<img :src="withBase(frontmatter.coverImage)" alt="此生不識君，亦為君沉淪 Still You 封面" class="novel-cover" style="max-width: 300px; margin-bottom: 20px;">
+<div class="page-layout novel-intro-page">
+<div class="cover-box">
+<img :src="withBase(frontmatter.coverImage)" alt="此生不識君，亦為君沉淪 Still You 封面" class="novel-cover">
+</div>
+
+# {{ frontmatter.novelTitle }}
 
 <p class="novel-meta">
-    作者：{{ frontmatter.author }} | 狀態：{{ frontmatter.status }} | 類型：{{ frontmatter.genre.join(', ') }}
-    <span v-if="frontmatter.tags && frontmatter.tags.length">| 標籤：{{ frontmatter.tags.join(', ') }}</span>
+    作者：{{ frontmatter.author }}
+    <span>狀態：{{ frontmatter.status }}</span>
+    <span>類型：{{ frontmatter.genre.join(', ') }}</span>
+    <span v-if="frontmatter.tags && frontmatter.tags.length">標籤：{{ frontmatter.tags.join(', ') }}</span>
 </p>
 
 ## 故事簡介
@@ -45,23 +50,13 @@ const { frontmatter } = useData()
 
 ## 章節列表
 
-<p v-if="!frontmatter.chapters || frontmatter.chapters.length === 0">目前還沒有發布任何章節。</p>
-<ul v-else>
-    <li v-for="chapter in frontmatter.chapters" :key="chapter.link">
-        <a :href="withBase(chapter.link)">{{ chapter.title }}</a>
-    </li>
-</ul>
+  <p v-if="!frontmatter.chapters || frontmatter.chapters.length === 0">目前還沒有發布任何章節。</p>
+  <ul v-else>
+      <li v-for="chapter in frontmatter.chapters" :key="chapter.link">
+          <a :href="withBase(chapter.link)">{{ chapter.title }}</a>
+      </li>
+  </ul>
+</div>
 
 <style scoped>
-.novel-cover {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.novel-meta {
-    text-align: center;
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 30px;
-}
 </style>

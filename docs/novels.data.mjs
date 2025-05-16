@@ -34,7 +34,7 @@ export default {
                                 const fm = yaml.load(frontmatterMatch[1]);
                                 novels.push({
                                     id: novelId,
-                                    title: fm.novelTitle || fm.title || novelId,
+                                    title: fm.novelTitle || fm.title || novelTitle,
                                     description: fm.description || '',
                                     author: fm.author || '',
                                     status: fm.status || '未知狀態',

@@ -1,5 +1,5 @@
 ---
-title: Fiction.exe
+title: 所有小說
 layout: home
 ---
 
@@ -8,8 +8,9 @@ import { data as novels } from './novels.data.mjs';
 import { withBase } from 'vitepress';
 </script>
 
-### Fiction.exe ｜故事清單
+#### Fiction.exe ｜故事清單
 
+<br>
 Run error. Begin dream.<br>
 啟動錯誤，進入虛構。剩下的，就交給夢。
 
@@ -17,17 +18,36 @@ Run error. Begin dream.<br>
   <div v-for="novel in novels" :key="novel.id" class="novel-item">
     <a :href="withBase(novel.link)">
       <img v-if="novel.coverImage" :src="withBase(novel.coverImage)" :alt="novel.title + ' 封面'" class="novel-list-cover">
-      <h2>{{ novel.title }}</h2>
+      <div class="card-body">
+        <h3>{{ novel.title }}</h3>
+        <!-- <p class="novel-list-author">作者：{{ novel.author }}</p> -->
+        <span class="novel-list-status">{{ novel.status }}</span>
+        <p class="novel-list-description">{{ novel.description }}</p>
+        <a :href="withBase(novel.link)" class="read-more">開始閱讀</a>
+      </div>
     </a>
-    <p class="novel-list-author">作者：{{ novel.author }}</p>
-    <p class="novel-list-status">狀態：{{ novel.status }}</p>
-    <p class="novel-list-description">{{ novel.description }}</p>
-    <a :href="withBase(novel.link)" class="read-more">點此閱讀 &raquo;</a>
   </div>
 </div>
 <p v-else>目前還沒有任何小說。</p>
 
 <style scoped>
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .novel-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* 響應式網格佈局 */
@@ -36,34 +56,41 @@ Run error. Begin dream.<br>
 }
 .novel-item {
   border: 1px solid var(--vp-c-divider);
-  padding: 20px;
-  border-radius: 8px;
-  background-color: var(--vp-c-bg-soft);
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
 }
-.novel-item h2 {
-  margin-top: 0;
-  font-size: 1.5em;
-  border-bottom: none;
+.novel-item .card-body {
+  padding: 1rem;
 }
 .novel-list-cover {
   width: 100%;
-  max-height: 200px;
+  max-height: 240px;
   object-fit: cover;
-  border-radius: 4px;
-  margin-bottom: 15px;
 }
 .novel-list-author, .novel-list-status {
-  font-size: 0.9em;
   color: var(--vp-c-text-2);
   margin: 2px 0;
 }
+.novel-list-status {
+  position: absolute;
+  top: 0.75rem;
+  left: 0;
+  background-color: #161210;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
 .novel-list-description {
-  font-size: 0.95em;
-  color: var(--vp-c-text-1);
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
   flex-grow: 1;
-  margin-bottom: 15px;
+  margin: 1rem 0;
 }
 .read-more {
   display: inline-block;
@@ -76,6 +103,7 @@ Run error. Begin dream.<br>
   align-self: flex-start;
 }
 .read-more:hover {
-  background-color: var(--vp-c-brand-2);
+  background-color: var(--vp-c-brand-3);
+  color: white;
 }
 </style>

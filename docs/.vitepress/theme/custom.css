@@ -1,0 +1,47 @@
+/* 淺色模式 (預設) */
+:root {
+    --vp-c-bg: #f7f9ff;
+    /*背景色*/
+    --vp-nav-bg-color: #fff;
+    /* Header 背景色 */
+}
+
+/* 深色模式 */
+html.dark {
+    --vp-c-bg: #1c1c1e;
+    --vp-nav-bg-color: #343438;
+}
+
+/* --- 通用樣式 --- */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.novel-intro-page .cover-box {
+    max-height: 300px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.novel-intro-page h1 {
+    margin: 1rem 0;
+    letter-spacing: 1.5px;
+}
+
+.novel-intro-page h2 {
+    margin: 0;
+}
+
+.novel-intro-page .novel-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.novel-intro-page .novel-meta span {
+    display: block;
+
+}
