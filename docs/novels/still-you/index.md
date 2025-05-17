@@ -5,16 +5,20 @@ novelId: still-you
 description: 醒來那天，謝憐發現自己成了鄉野村民，還有一個可愛的弟弟叫花城。問題是——他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
 author: 卡塔西
 genre:
-  - 奇幻
-  - 冒險
-  - 戀愛
-  - 骨科
-tags:
-  - 同人
-  - 天官賜福
   - 耽美
+  - 奇幻
+  - 骨科
+  - 戀愛
+  - 架空
+  - 同人
+tags:
+  - 天官賜福
+  - 暗戀成真
+  - 肉菜均衡
+  - 花謝
+  - 夢境世界
 status: 連載中
-coverImage: /images/a.jpg
+coverImage: /images/still-you.jpg
 createdAt: "2025-05-14T09:22:02.654Z"
 lastUpdated: "2025-05-15T05:44:01.780Z"
 chapters:

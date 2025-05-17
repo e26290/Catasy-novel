@@ -71,7 +71,7 @@ a {
 }
 .novel-list-cover {
   width: 100%;
-  max-height: 240px;
+  max-height: 400px;
   object-fit: cover;
 }
 .novel-list-author, .novel-list-status {

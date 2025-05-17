@@ -1,6 +1,7 @@
 // docs/.vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
-import './custom.css' // 引入你的自訂 CSS
+import './custom.css'
+import './custom-scripts.js'
 
 export default {
     ...DefaultTheme,

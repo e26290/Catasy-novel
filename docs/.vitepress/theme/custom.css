@@ -39,7 +39,7 @@ body {
 }
 
 .novel-intro-page .cover-box {
-    max-height: 300px;
+    max-height: 400px;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -88,6 +88,18 @@ html.dark .VPSocialLink:hover .VPSocialLinkIcon {
         height: 36px !important;
         margin-top: 40px;
     }
+}
+
+/* ------------------------- */
+
+/* 禁止使用者透過滑鼠選取文字 */
+.vp-doc,
+.novel-intro-page,
+.novel-chapter-page {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 /* ------------------------- */
