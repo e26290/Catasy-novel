@@ -1,21 +1,21 @@
 <template>
     <DefaultTheme.Layout>
-        <template #aside-top>
-            <ClientOnly>
+        <ClientOnly>
+            <template #aside-top>
                 <Analytics />
                 <p>Analytics Test</p>
-            </ClientOnly>
-        </template>
+            </template>
+        </ClientOnly>
     </DefaultTheme.Layout>
 </template>
 
 <script setup>
-import DefaultTheme from 'vitepress/theme'
-import { Analytics } from '@vercel/analytics/react';
-import { ClientOnly } from 'vitepress';
-import { onMounted } from 'vue';  // 確保 onMounted 被正確導入
+import DefaultTheme from "vitepress/theme";
+import { Analytics } from "@vercel/analytics/react";
+import { ClientOnly } from "vitepress";
+import { onMounted } from "vue"; // 確保 onMounted 被正確導入
 
 onMounted(() => {
-    console.log('Layout.vue is mounted!'); // 測試訊息
+    console.log("Layout.vue is mounted!"); // 測試訊息
 });
 </script>
