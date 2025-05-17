@@ -23,12 +23,6 @@ export default {
     siteTitle: false,
     nav: [
       { text: "所有故事", link: "/" },
-      // {
-      //   text: 'Threads', // 這個 text 通常作為 tooltip 或 aria-label
-      //   link: 'https://www.threads.net/@catasy.exe',
-      //   target: '_blank',
-      //   rel: 'noopener noreferrer',
-      // }
     ],
     socialLinks: [
       {
