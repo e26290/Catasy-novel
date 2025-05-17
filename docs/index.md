@@ -19,7 +19,7 @@ Run error. Begin dream.<br>
     <a :href="withBase(novel.link)">
       <img v-if="novel.coverImage" :src="withBase(novel.coverImage)" :alt="novel.title + ' 封面'" class="novel-list-cover">
       <div class="card-body">
-        <h3>{{ novel.title }}</h3>
+        <h3 class="card-title">{{ novel.title }}</h3>
         <!-- <p class="novel-list-author">作者：{{ novel.author }}</p> -->
         <span class="novel-list-status">{{ novel.status }}</span>
         <p class="novel-list-description">{{ novel.description }}</p>

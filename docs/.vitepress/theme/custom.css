@@ -2,14 +2,14 @@
 :root {
     --vp-c-bg: #f7f9ff;
     /*背景色*/
-    /* --vp-nav-bg-color: #fff; */
-    /* Header 背景色 */
     --vp-sidebar-bg-color: #fff;
-
     /* Sidebar 背景色 */
-    /* .wrapper .content {
-        background-color: #fff;
-    } */
+    .novel-list .card-title {
+        color: var(--vp-c-brand-1);
+    }
+    .novel-list .card-title:hover {
+        color: var(--vp-c-brand-2);
+    }
     /* Header content 背景色 */
     .VPLink.link.pager-link {
         background-color: #fff;
@@ -21,12 +21,13 @@
 /* 深色模式 */
 html.dark {
     --vp-c-bg: #1c1c1e;
-    /* --vp-nav-bg-color: #343438; */
     --vp-sidebar-bg-color: #343438;
-
-    /* .wrapper .content {
-        background-color: #343438;
-    } */
+    .novel-list .card-title {
+        color: #3a5ccc;
+    }
+    .novel-list .card-title:hover {
+        color: var(--vp-c-brand-2);
+    }
     .VPLink.link.pager-link {
         background-color: #343438;
     }
