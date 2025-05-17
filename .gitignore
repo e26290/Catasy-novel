@@ -101,3 +101,4 @@ dist/ # 如果你把 vitepress build 的輸出放在根目錄的 dist
 ```
 
 **核心是 `node_modules/` 和 VitePress 的建置輸出目錄 `docs/.vitepress/dist/` 以及快取目錄 `docs/.vitepress/cache/`。**
+.vercel
