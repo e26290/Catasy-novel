@@ -52,6 +52,12 @@ const { frontmatter } = useData()
 
 {{ frontmatter.description || "這本小說還沒有簡介..." }}
 
+<span>讓 AI 老高來快速帶你了解劇情：</span>
+
+<iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fe26290%2F%25E6%25AD%25A4%25E7%2594%259F%25E4%25B8%258D%25E8%25AD%2598%25E5%2590%259B%25E4%25BA%25A6%25E7%2582%25BA%25E5%2590%259B%25E6%25B2%2589%25E6%25B7%25AA-still-you%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
+
+<br>
+
 ## 章節列表
 
   <p v-if="!frontmatter.chapters || frontmatter.chapters.length === 0">目前還沒有發布任何章節。</p>
