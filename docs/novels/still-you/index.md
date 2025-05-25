@@ -20,7 +20,7 @@ tags:
 status: 連載中
 coverImage: /images/still-you.jpg
 createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-05-24T14:18:16.580Z'
+lastUpdated: '2025-05-25T05:15:26.841Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
