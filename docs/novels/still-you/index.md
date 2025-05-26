@@ -30,6 +30,10 @@ chapters:
     link: /novels/still-you/Ch-3
   - title: 第四章：曇光・半藏狐心
     link: /novels/still-you/Ch-4
+  - title: 第三章：霜曉・少年與狐
+    link: /novels/still-you/Ch-3
+  - title: 第四章：曇光・半藏狐心
+    link: /novels/still-you/Ch-4
 aside: true
 ---
 
