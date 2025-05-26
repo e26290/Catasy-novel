@@ -3,8 +3,9 @@ title: 第三章：霜曉・少年與狐
 id: Ch-3
 novelTitle: 此生不識君，亦為君沉淪 Still You
 novelId: still-you
-status: unpublished
-createdAt: "2025-05-15T02:32:57.903Z"
+status: published
+createdAt: '2025-05-15T02:32:57.903Z'
+publishDate: '2025-05-26T02:29:56.358Z'
 ---
 
 # {{ frontmatter.title }}

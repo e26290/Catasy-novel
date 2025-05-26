@@ -3,8 +3,9 @@ title: 第四章：曇光・半藏狐心
 id: Ch-4
 novelTitle: 此生不識君，亦為君沉淪 Still You
 novelId: still-you
-status: unpublished
-createdAt: "2025-05-15T03:51:15.787Z"
+status: published
+createdAt: '2025-05-15T03:51:15.787Z'
+publishDate: '2025-05-26T02:29:56.369Z'
 ---
 
 # {{ frontmatter.title }}

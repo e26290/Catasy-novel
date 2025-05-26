@@ -19,13 +19,17 @@ tags:
   - 夢境世界
 status: 連載中
 coverImage: /images/still-you.jpg
-createdAt: "2025-05-14T09:22:02.654Z"
-lastUpdated: "2025-05-15T05:44:01.780Z"
+createdAt: '2025-05-14T09:22:02.654Z'
+lastUpdated: '2025-05-26T02:29:56.370Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
   - title: 第二章：夢起・鄉村冬雪
     link: /novels/still-you/Ch-2
+  - title: 第三章：霜曉・少年與狐
+    link: /novels/still-you/Ch-3
+  - title: 第四章：曇光・半藏狐心
+    link: /novels/still-you/Ch-4
 aside: true
 ---
 
