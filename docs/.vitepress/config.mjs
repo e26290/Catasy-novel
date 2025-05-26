@@ -45,8 +45,8 @@ export default {
             { text: '作品簡介', link: '/novels/still-you/' }, 
             { text: '第一章：夢始之前', link: '/novels/still-you/Ch-1' },
             { text: '第二章：夢起・鄉村冬雪', link: '/novels/still-you/Ch-2' },
-            // ... 你小說 'still-you' 的其他已發布章節，按閱讀順序列出
-            // { text: '第三章：新的冒險', link: '/novels/still-you/Ch-3' },
+            { text: '第三章：霜曉・少年與狐', link: '/novels/still-you/Ch-3' },
+            { text: '第四章：曇光・半藏狐心', link: '/novels/still-you/Ch-4' },
           ]
         }
       ],
