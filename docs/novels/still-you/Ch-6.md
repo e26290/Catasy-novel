@@ -1,5 +1,5 @@
 ---
-title: 第六章：暮戲・狐意難掩
+title: 第六章：暮戲・心意難掩
 id: Ch-6
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
