@@ -47,6 +47,9 @@ export default {
             { text: '第二章：夢起・鄉村冬雪', link: '/novels/still-you/Ch-2' },
             { text: '第三章：霜曉・少年與狐', link: '/novels/still-you/Ch-3' },
             { text: '第四章：曇光・半藏狐心', link: '/novels/still-you/Ch-4' },
+            { text: '第五章：雪隱・誰見他心', link: '/novels/still-you/Ch-5' },
+            { text: '第六章：暮戲・心意難掩', link: '/novels/still-you/Ch-6' },
+            { text: '第七章：風來・心起將行時', link: '/novels/still-you/Ch-7' },
           ]
         }
       ],
