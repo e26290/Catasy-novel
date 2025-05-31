@@ -3,8 +3,9 @@ title: 第七章：風來・心起將行時
 id: Ch-7
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
-status: unpublished
+status: published
 createdAt: '2025-05-19T13:25:19.756Z'
+publishDate: '2025-05-31T07:20:04.860Z'
 ---
 
 # {{ frontmatter.title }}

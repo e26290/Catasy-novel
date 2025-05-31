@@ -3,8 +3,9 @@ title: 第六章：暮戲・心意難掩
 id: Ch-6
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
-status: unpublished
+status: published
 createdAt: '2025-05-19T12:05:59.864Z'
+publishDate: '2025-05-31T07:20:04.859Z'
 ---
 
 # {{ frontmatter.title }}
