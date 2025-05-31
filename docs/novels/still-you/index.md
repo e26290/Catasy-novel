@@ -20,7 +20,7 @@ tags:
 status: 連載中
 coverImage: /images/still-you.jpg
 createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-05-26T02:29:56.370Z'
+lastUpdated: '2025-05-31T07:20:04.862Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
@@ -30,10 +30,12 @@ chapters:
     link: /novels/still-you/Ch-3
   - title: 第四章：曇光・半藏狐心
     link: /novels/still-you/Ch-4
-  - title: 第三章：霜曉・少年與狐
-    link: /novels/still-you/Ch-3
-  - title: 第四章：曇光・半藏狐心
-    link: /novels/still-you/Ch-4
+  - title: 第五章：雪隱・誰見他心
+    link: /novels/still-you/Ch-5
+  - title: 第六章：暮戲・心意難掩
+    link: /novels/still-you/Ch-6
+  - title: 第七章：風來・心起將行時
+    link: /novels/still-you/Ch-7
 aside: true
 ---
 
