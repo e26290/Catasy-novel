@@ -50,6 +50,9 @@ export default {
             { text: '第五章：雪隱・誰見他心', link: '/novels/still-you/Ch-5' },
             { text: '第六章：暮戲・心意難掩', link: '/novels/still-you/Ch-6' },
             { text: '第七章：風來・心起將行時', link: '/novels/still-you/Ch-7' },
+            { text: '第八章：雨臨・將言不及時', link: '/novels/still-you/Ch-8' },
+            { text: '第九章：春別・無言待', link: '/novels/still-you/Ch-9' },
+            { text: '第十章：夢長・信遲風猶在', link: '/novels/still-you/Ch-10' },
           ]
         }
       ],
