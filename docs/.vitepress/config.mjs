@@ -53,6 +53,8 @@ export default {
             { text: '第八章：雨臨・將言不及時', link: '/novels/still-you/Ch-8' },
             { text: '第九章：春別・無言待', link: '/novels/still-you/Ch-9' },
             { text: '第十章：夢長・信遲風猶在', link: '/novels/still-you/Ch-10' },
+            { text: '第十一章：歸來・紅甲映山雪', link: '/novels/still-you/Ch-11' },
+            { text: '第十二章：暮眠・欲語又遲遲', link: '/novels/still-you/Ch-12' },
           ]
         }
       ],
