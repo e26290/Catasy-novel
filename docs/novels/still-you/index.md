@@ -19,8 +19,8 @@ tags:
   - 夢境世界
 status: 連載中
 coverImage: /images/still-you.jpg
-createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-05-31T07:20:04.862Z'
+createdAt: "2025-05-14T09:22:02.654Z"
+lastUpdated: "2025-05-31T07:20:04.862Z"
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
@@ -36,6 +36,16 @@ chapters:
     link: /novels/still-you/Ch-6
   - title: 第七章：風來・心起將行時
     link: /novels/still-you/Ch-7
+  - title: 第八章：雨臨・將言不及時
+    link: /novels/still-you/Ch-8
+  - title: 第九章：春別・無言待
+    link: /novels/still-you/Ch-9
+  - title: 第十章：夢長・信遲風猶在
+    link: /novels/still-you/Ch-10
+  - title: 第十一章：歸來・紅甲映山雪
+    link: /novels/still-you/Ch-11
+  - title: 第十二章：暮眠・欲語又遲遲
+    link: /novels/still-you/Ch-12
 aside: true
 ---
 
