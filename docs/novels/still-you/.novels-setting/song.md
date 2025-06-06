@@ -25,7 +25,7 @@ You are the one I long for, yet too sacred to hold or know.
 【Chorus】
 你說不語，即是無情，
 You said silence means hearts have gone cold,
-我卻在沉默裡，把愛埋得更深沉。
+我卻在沉默裡，把愛埋得更深。
 Yet I buried my love in silence deeper than told.
 
 你以為我早已放手轉身，
@@ -35,7 +35,7 @@ Unaware, my heart had never strayed—not even once, not ever.
 
 你說此路，當止於兄弟之名，
 You said our path must end beneath the name of brotherhood.
-我卻甘願，在夢中慢慢沉淪。
+我卻甘願於夢中沉淪。
 But I would gladly drown in dreams like no other.
 
 若今生不能共赴黃昏，
@@ -67,7 +67,7 @@ In that single glance, our souls found the other's shape.
 【Final Chorus】
 你說不語，即是無情，
 You said silence means hearts have gone cold,
-我卻在沉默裡，把愛埋得更深沉。
+我卻在沉默裡，把愛埋得更深。
 Yet I buried my love in silence deeper than told.
 
 你以為我早已放手轉身，
@@ -77,7 +77,7 @@ Unaware, my heart had never strayed—not even once, not ever.
 
 你說此路，當止於兄弟之名，
 You said our path must end beneath the name of brotherhood.
-我卻甘願，在夢中慢慢沉淪。
+我卻甘願於夢中沉淪。
 But I would gladly drown in dreams like no other.
 
 若今生不能共赴黃昏，
@@ -99,4 +99,4 @@ this love remains.
 夢裡萬千身分，皆不及你回首一瞬。
 A thousand selves in dreams, yet none as dear as your glance.
 若此生不識君，亦為君沉淪。
-Had we not met, I’d still be yours, unknowingly in love.
+Even in a life where we never met, it would still be you.
