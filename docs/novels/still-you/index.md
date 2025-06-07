@@ -19,8 +19,8 @@ tags:
   - 夢境世界
 status: 連載中
 coverImage: /images/still-you.jpg
-createdAt: "2025-05-14T09:22:02.654Z"
-lastUpdated: "2025-05-31T07:20:04.862Z"
+createdAt: '2025-05-14T09:22:02.654Z'
+lastUpdated: '2025-06-07T13:15:31.922Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
