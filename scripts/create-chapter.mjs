@@ -121,6 +121,12 @@ async function createChapter() {
                     return value.length ? true : '章節標題不能為空。';
                 },
             },
+            {
+                type: 'confirm',
+                name: 'isR18',
+                message: '🔞 本章是否為 R18 內容？',
+                default: false, // 預設為 false
+            },
         ]);
 
         const chapterFilePath = path.join(novelFolderPath, `${answers.chapterId}.md`);
@@ -133,7 +139,7 @@ async function createChapter() {
             novelId: actualNovelId, // 所屬小說的 ID
             status: "unpublished", // 預設為未發布
             createdAt: new Date().toISOString(),
-            // 你可以加入 prev, next 欄位，或者在發布時再處理
+            ...(answers.isR18 && { r18: true }),
         };
 
         // 準備 Markdown 內容模板
