@@ -3,8 +3,9 @@ title: 第八章：雨臨・將言不及時
 id: Ch-8
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
-status: unpublished
+status: published
 createdAt: '2025-05-24T12:43:01.878Z'
+publishDate: '2025-06-07T13:17:21.811Z'
 ---
 
 # {{ frontmatter.title }}
