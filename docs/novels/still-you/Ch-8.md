@@ -4,7 +4,6 @@ id: Ch-8
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
 status: published
-status: published
 createdAt: '2025-05-24T12:43:01.878Z'
 publishDate: '2025-06-07T13:15:31.920Z'
 ---
