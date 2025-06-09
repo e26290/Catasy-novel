@@ -19,8 +19,8 @@ tags:
   - 夢境世界
 status: 連載中
 coverImage: /images/still-you.jpg
-createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-06-07T13:15:31.922Z'
+createdAt: "2025-05-14T09:22:02.654Z"
+lastUpdated: "2025-06-09T08:19:31.418Z"
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
@@ -46,6 +46,10 @@ chapters:
     link: /novels/still-you/Ch-11
   - title: 第十二章：暮眠・欲語又遲遲
     link: /novels/still-you/Ch-12
+  - title: 第十三章：夢語・未盡霜色照心
+    link: /novels/still-you/Ch-13
+  - title: 第十四章：心息・輕抹不敢言情
+    link: /novels/still-you/Ch-14
 aside: true
 ---
 
@@ -73,9 +77,10 @@ const { frontmatter } = useData()
 {{ frontmatter.description || "這本小說還沒有簡介..." }}
 
 <span>讓 AI 老高來快速帶你了解劇情：</span>
+
 <iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fe26290%2F%25E6%25AD%25A4%25E7%2594%259F%25E4%25B8%258D%25E8%25AD%2598%25E5%2590%259B%25E4%25BA%25A6%25E7%2582%25BA%25E5%2590%259B%25E6%25B2%2589%25E6%25B7%25AA-still-you%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
 
-<span>李牧延 Muyan Li — 夢離花境 In the Dream of a Flower｜OST</span>
+<span>李牧延 Muyan Li — 夢離花境 In the Dream of a Flower ｜ OST</span>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx5Mx_lERR0?si=_q6tNRPSJUd4_GTL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

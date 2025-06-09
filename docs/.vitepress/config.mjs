@@ -55,6 +55,8 @@ export default {
             { text: '第十章：夢長・信遲風猶在', link: '/novels/still-you/Ch-10' },
             { text: '第十一章：歸來・紅甲映山雪', link: '/novels/still-you/Ch-11' },
             { text: '第十二章：暮眠・欲語又遲遲', link: '/novels/still-you/Ch-12' },
+            { text: '第十三章：夢語・未盡霜色照心', link: '/novels/still-you/Ch-13' },
+            { text: '第十四章：心息・輕抹不敢言情', link: '/novels/still-you/Ch-14' },
           ]
         }
       ],
