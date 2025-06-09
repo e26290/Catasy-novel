@@ -20,7 +20,7 @@ tags:
 status: 連載中
 coverImage: /images/still-you.jpg
 createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-06-07T13:17:21.813Z'
+lastUpdated: '2025-06-09T08:19:31.418Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
@@ -46,6 +46,10 @@ chapters:
     link: /novels/still-you/Ch-11
   - title: 第十二章：暮眠・欲語又遲遲
     link: /novels/still-you/Ch-12
+  - title: 第十三章：夢語・未盡霜色照心
+    link: /novels/still-you/Ch-13
+  - title: 第十四章：心息・輕抹不敢言情
+    link: /novels/still-you/Ch-14
 aside: true
 ---
 
