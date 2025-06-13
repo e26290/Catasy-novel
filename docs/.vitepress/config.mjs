@@ -57,6 +57,9 @@ export default {
             { text: '第十二章：暮眠・欲語又遲遲', link: '/novels/still-you/Ch-12' },
             { text: '第十三章：夢語・未盡霜色照心', link: '/novels/still-you/Ch-13' },
             { text: '第十四章：心息・輕抹不敢言情', link: '/novels/still-you/Ch-14' },
+            { text: '第十五章：心醉・夜影含情初至', link: '/novels/still-you/Ch-15' },
+            { text: '第十六章：初綻・春深夜雨猶柔', link: '/novels/still-you/Ch-16' },
+            { text: '第十七章：情欲・臨界心動交纏（Ｈ）', link: '/novels/still-you/Ch-17' },
           ]
         }
       ],
