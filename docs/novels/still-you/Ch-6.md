@@ -4,8 +4,8 @@ id: Ch-6
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
 status: published
-createdAt: '2025-05-19T12:05:59.864Z'
-publishDate: '2025-05-31T07:20:04.859Z'
+createdAt: "2025-05-19T12:05:59.864Z"
+publishDate: "2025-05-31T07:20:04.859Z"
 ---
 
 # {{ frontmatter.title }}
@@ -129,7 +129,7 @@ const { frontmatter } = useData()
 
 裴茗瞪著那碗墨黑如硯的湯，眼角開始抽搐：「……真、真補啊。」
 
-他抬起眼，剛想說幾句場面話推辭，便對上了謝問彎著眼角的溫柔微笑。
+他抬起眼，剛想說幾句場面話推辭，便對上了謝憐彎著眼角的溫柔微笑。
 
 話未出口，背後忽又傳來一道冰冷的聲音：「若是不敢喝，我來。」花城不知何時已抱臂站在灶邊，臉上沒有任何表情。
 
@@ -176,4 +176,3 @@ const { frontmatter } = useData()
 只有裴茗受傷的世界達成了 ✅
 
 ---
-
