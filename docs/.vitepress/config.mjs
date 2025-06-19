@@ -62,6 +62,8 @@ export default {
             { text: '第十七章：情欲・臨界心動交纏（Ｈ）', link: '/novels/still-you/Ch-17' },
             { text: '第十八章：交融・靜夜有聲（H）', link: '/novels/still-you/Ch-18' },
             { text: '第十九章：清晨・夢與火光之間（H）', link: '/novels/still-you/Ch-19' },
+            { text: '第二十章：夢醒・予你一世芳心', link: '/novels/still-you/Ch-20' },
+            { text: '角色設定＆完結感想', link: '/novels/still-you/Ch-21' },
           ]
         }
       ],
