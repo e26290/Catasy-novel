@@ -19,8 +19,8 @@ tags:
   - 夢境世界
 status: 連載中
 coverImage: /images/still-you.jpg
-createdAt: "2025-05-14T09:22:02.654Z"
-lastUpdated: "2025-06-16T09:39:53.014Z"
+createdAt: '2025-05-14T09:22:02.654Z'
+lastUpdated: '2025-06-19T14:16:03.821Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
@@ -60,6 +60,10 @@ chapters:
     link: /novels/still-you/Ch-18
   - title: 第十九章：清晨・夢與火光之間（H）
     link: /novels/still-you/Ch-19
+  - title: 第二十章：夢醒・予你一世芳心
+    link: /novels/still-you/Ch-20
+  - title: 角色設定＆完結感想
+    link: /novels/still-you/Ch-21
 aside: true
 ---
 
