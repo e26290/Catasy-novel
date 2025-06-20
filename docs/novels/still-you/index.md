@@ -17,10 +17,10 @@ tags:
   - 肉菜均衡
   - 花謝
   - 夢境世界
-status: 連載中
+status: 已完結
 coverImage: /images/still-you.jpg
 createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-06-19T14:16:03.821Z'
+lastUpdated: '2025-06-20T01:35:20.080Z'
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
