@@ -2,7 +2,7 @@
 title: 此生不識君，亦為君沉淪
 novelTitle: 《此生不識君，亦為君沉淪》Still-you
 novelId: still-you
-description: 醒來那天，謝憐發現自己成了鄉野村民，還有一個可愛的弟弟叫花城。問題是——他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
+description: 醒來那天，謝憐發現自己成了鄉野村民，還有一個可愛的弟弟叫花城。問題是他記不得這人生，但心卻早已動搖。這場夢，怎麼越走越真？
 author: 卡塔西
 genre:
   - 耽美
@@ -19,8 +19,8 @@ tags:
   - 夢境世界
 status: 已完結
 coverImage: /images/still-you.jpg
-createdAt: '2025-05-14T09:22:02.654Z'
-lastUpdated: '2025-06-20T01:35:20.080Z'
+createdAt: "2025-05-14T09:22:02.654Z"
+lastUpdated: "2025-06-20T01:35:20.080Z"
 chapters:
   - title: 第一章：夢始之前
     link: /novels/still-you/Ch-1
