@@ -38,6 +38,9 @@ export default {
                                     author: fm.author || '',
                                     status: fm.status || '未知狀態',
                                     coverImage: fm.coverImage || '',
+                                    // ===== ↓↓↓ 新增這一行 ↓↓↓ =====
+                                    lastUpdated: fm.lastUpdated || '', // 讀取最後更新時間
+                                    // ============================
                                     link: `/novels/${novelId}/`
                                 });
                             }
@@ -54,7 +57,8 @@ export default {
                 console.error(`❌ 讀取小說目錄 ${NOVELS_BASE_PATH} 時發生錯誤:`, dirError);
             }
         }
-        novels.sort((a, b) => a.title.localeCompare(b.title));
+        // 按最後更新日期排序，b - a 代表由新到舊
+        novels.sort((a, b) => new Date(b.lastUpdated) - new Date(a.lastUpdated));
         return novels;
     }
 };
